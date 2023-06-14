@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <link href="/dist/output.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/edb59e48e2.js" crossorigin="anonymous"></script>
+  <title>Safari 1</title>
+</head>
+<body class="bg-gray-200">
+  
+
+
+    <div class="z-40"> <!-- Content Wrapper -->
+        <div class="bg-primary text-white">
+            <nav class="flex flex-col lg:flex-row justify-around">
+                <div class="flex justify-between items-center">
+                    <!-- Logo/Icon -->
+                    <h1 class='w-40 px-5 font-bold lg:px-1 inline-block'>Logo</h1>
+                    <!-- Hamburger menu ico -->
+                    <div class="px-5 lg:hidden" id="hamburger">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="hidden lg:block" id="menu">  <!--List Items in Navigation Bar-->
+                    <ul class="flex flex-col lg:flex-row gap-1 lg:gap-3 ">
+                        <!-- Home -->
+                        <li class="nav-btn">
+                            <a class="hover:bg-red-400 py-2 px-4 border-b-4 border-b-red-400" href="#">
+                                Home
+                            </a>
+                        </li>
+                        <!-- About -->
+                        <li class="relative group nav-btn active" id="dropItem">
+                            <a class="hover:bg-red-400 py-2 px-2" href="#">
+                            About
+                            <svg class="inline-block w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                            </a>
+                            <div class="z-40 absolute mt-5 bg-primary rounded-b-md border-t-4 border-t-red-400 px-6 hidden group-hover:block ml-24 lg:ml-0 shadow-md" id="dropItemChild">
+                                <ul class="flex flex-col gap-1">
+                                    <li class="drop-li">Our Story</li>
+                                    <li class="drop-li">Our People</li>
+                                    <li class="drop-li">Our Sustainable Responsibility</li>
+                                    <li class="drop-li">What We Do</li>
+                                    <li class="drop-li">Why Sense Of Africa</li>
+                                    <li class="drop-li mb-2">Tourvest</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- Destinations -->
+                        <li class="relative group nav-btn" id="dropItem">
+                            <a class="hover:bg-red-400 py-2 px-2" href="#">
+                            Destinations
+                            <svg class="inline-block w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                            </a>
+                            <div class="z-40 absolute mt-5 bg-primary rounded-b-md border-t-4 border-t-red-400 pl-6 hidden group-hover:block ml-24 lg:-ml-32 shadow-md" id="dropItemChild">
+                                <div class="flex gap-10 md:gap-3 lg:gap-10">
+
+                                    <div class="">
+                                        <h1 class="py-5 text-xl">Southern Africa</h1>
+                                        <ul>
+                                            <li class="drop-li">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-4 inline-block">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                </svg>  
+                                                South Africa
+                                            </li>
+                                            <li class="drop-li">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-4 inline-block">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                </svg>  
+                                                Namibia
+                                            </li>
+                                            <li class="drop-li">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-4 inline-block">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                </svg>  
+                                                Botswana
+                                            </li>
+                                            <li class="drop-li">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-4 inline-block">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                </svg>  
+                                                Zimbabwe
+                                            </li>
+                                            <li class="drop-li mb-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-4 inline-block">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                </svg>  
+                                                Zambia
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="">
+                                        <h1 class="py-5 text-xl">East Africa</h1>
+                                        <ul>
+                                            <li class="drop-li">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-4 inline-block">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                </svg>
+                                                Kenya
+                                            </li>
+                                            <li class="drop-li">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-4 inline-block">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                </svg>
+                                                Tanzania
+                                            </li>
+                                            <li class="drop-li">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-4 inline-block">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                </svg>
+                                                Uganda
+                                            </li>
+                                            <li class="drop-li">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-4 inline-block">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                </svg>
+                                                Rwanda
+                                            </li>
+                                            <li class="drop-li mb-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-4 inline-block">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                </svg>
+                                                Ethiopia
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="hidden md:flex md:flex-col gap-2 w-full bg-cover bg-gray-100 text-slate-600 px-5 rounded-br-md">
+                                        <h1 class="py-5 text-2xl">Our Top Pick</h1>
+                                        <p>Our top pick tour, guarantee to fill<br> all the checkboxes of your clients'<br> travel needs.</p>
+                                        <img class="w-full h-32 object-cover rounded-sm" src="img/dunebigdaddy.jpeg" alt="">
+                                        <div class="flex justify-center mb-2 mt-2">
+                                            <button class="rounded-lg text-white bg-accent py-2 px-10 ">Enquire</button>
+                                        </div>
+                                        
+                                    </div>
+                                        
+                                    
+                                </div>
+                                
+
+                            </div>
+                        </li>
+                        <!-- Journeys -->
+                        <li class="relative group nav-btn" id="dropItem">
+                            <a class="hover:bg-red-400 py-2 px-2" href="#">
+                                Journeys
+                                <svg class="inline-block w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </a>
+                            <div class="z-40 absolute mt-5 bg-primary rounded-b-md border-t-4 border-t-red-400 px-6 hidden group-hover:block ml-24 lg:ml-0 shadow-md" id="dropItemChild">
+                                <ul class="flex flex-col gap-1">
+                                    <li class="drop-li">South Africa Tours</li>
+                                    <li class="drop-li">Namibia Tours</li>
+                                    <li class="drop-li">East Africa Tours</li>
+                                    <li class="drop-li">Zambia Tours</li>
+                                    <li class="drop-li">Botswana Tours</li>
+                                    <li class="drop-li mb-2">Zimbabwe Tours</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- Blog -->
+                        <li class="nav-btn">
+                            <a class="hover:bg-red-400 py-2 px-2" href="#">
+                                Blog
+                            </a>
+                        </li>
+                        <!-- News -->
+                        <li class="nav-btn group" id="dropItem">
+                            <a class="hover:bg-red-400 py-2 px-2 transition ease-in-out duration-300" href="#">
+                                News
+                                <svg class="inline-block w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </a>
+                            <div class="z-40 transition absolute mt-5 bg-primary rounded-b-md border-t-4 border-t-red-400 px-6 hidden group-hover:block hover:delay-150 ease-out duration-300 ml-24 lg:ml-0 shadow-md" id="dropItemChild">
+                                <ul class="flex flex-col gap-1">
+                                    <li class="drop-li">Botswana Newsflash</li>
+                                    <li class="drop-li">East Africa Newsflash</li>
+                                    <li class="drop-li">Namibia Newsflash</li>
+                                    <li class="drop-li mb-2">South Africa Newsflash</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- Contact Us -->
+                        <li class="nav-btn">
+                            <a class="hover:bg-red-400 py-2 px-2" href="#">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <main>
+
+            <!-- Hero Section -->
+            <div class=" z-10 relative bg-no-repeat bg-center bg-cover w-screen h-[84vh] xs:h-[87vh] text-white" style="background-image: url(img/leopard-bg.jpeg)">
+                <div class="container absolute flex flex-col gap-2 xs:gap-4 sm:gap-8 w-[16rem] xs:w-[20rem] md:w-[40rem] top-7 left-7 xs:top-10 sm:top-19 sm:left-20 md:top-36 md:left-28">
+                 <div>
+                     <h1 class="font-medium text-3xl xs:text-4xl md:text-5xl textShadow ">
+                         Welcome to Sense of Africa
+                     </h1>
+                 </div>
+     
+                 <div>
+                     <h2 class="font-semibold text-lg sm:text-xl md:text-2xl textShadow">
+                         Come journey Africa with us…
+                     </h2>
+                 </div>
+     
+                 <p class="text-base sm:text-[1.1rem] glass-effect px-3 py-2">
+                     Sense of Africa is the leading inbound destination management company in Africa. With offices in Namibia, South Africa, Kenya, Tanzania, Botswana, and Uganda, our expert travel consultants are able to specialise and offer your clients the private guided, self-drive, FIT and group travel services and products they deserve.
+                 </p>
+     
+                 <div class="flex gap-4 w-4/5">
+                     <button class="z-10 bg-white hover:bg-gray-300 hover:text-gray-50 transition ease-in-out duration-300 text-black px-4 py-2 rounded-lg cursor-pointer font-medium">VIEW OUR DESTINATIONS</button>
+                     <button class="z-10 bg-primary hover:bg-secondary transition ease-in-out duration-300 py-2 px-3 rounded-lg cursor-pointer font-medium">ABOUT US</button>
+                 </div>
+                 
+                </div>
+             </div>
+
+             <!-- Section 2 -->
+             <div>
+
+             </div>
+
+             
+
+        </main>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

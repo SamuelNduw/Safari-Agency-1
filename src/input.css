@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-btn{
+    @apply rounded-lg cursor-pointer px-4 py-5;
+}
+.drop-li{
+    @apply hover:bg-red-400 px-6 py-1 rounded-sm transition ease-in-out duration-300;
+}
+.textShadow{
+    text-shadow: 3px 3px 10px #2f2e2ea4;
+}
+li{
+    white-space: nowrap;
+}
+a{
+    @apply rounded-sm;
+}
+.glass-effect{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(20px);
+    box-shadow:0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    border-radius:5px;
+}
