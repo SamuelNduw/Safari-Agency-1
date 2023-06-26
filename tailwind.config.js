@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['index.html'],
+  content: ["./src/**/*.{html,js}"],
   theme: {
     screens:{
       xs:'400px',
@@ -8,6 +8,11 @@ module.exports = {
       md:'768px',
       lg:'976px',
       xl:'1440px'
+    },
+    variants: {
+      extend: {
+        scrollbar: ['rounded', 'dark'],
+      },
     },
     extend: {
       colors: {
